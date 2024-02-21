@@ -1,7 +1,7 @@
 <nav>
 <a href="index.php">Arena</a>
     <ul>
-        <li>test</li>
-        <li>2eme</li>
+        <li><a href="login.php">Login</a></li>
+        <li><a href="booking.php">Booking</a></li>
     </ul>
 </nav>
