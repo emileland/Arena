@@ -17,6 +17,9 @@ require_once(__DIR__ . '/functions.php');
     if (!isset($_SESSION['LOGGED_USER']))
     {
         require_once(__DIR__.'/login.php');
-    } ?>
+    }
+    else{
+        echo "vous etes connectés";
+    }?>
 </body>
 </html>
