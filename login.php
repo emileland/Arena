@@ -6,7 +6,6 @@
     <label>mot de passe
         <input type="password" name="password">
     </label><br>
-    <input type="hidden" name="isAdmin" value="False" />
-    <input type="hidden" name="isTable" value="False" />
+    <input type="hidden" name="type" value="0" />
     <button type="submit">Envoyer</button>
 </form>
