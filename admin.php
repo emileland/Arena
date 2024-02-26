@@ -6,7 +6,7 @@ session_start();
 
 <html lang="fr">
 <head>
-    <title>Arena - Réservations</title>
+    <title>Arena - Agenda</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="styles.css">
 </head>
