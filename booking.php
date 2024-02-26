@@ -20,7 +20,7 @@ require_once (__DIR__.'/variables.php');
     <div>
         <h2>Réservations</h2>
         <p>Consultez, modifiez, validez ou supprimez vos réservations</p>
-        <a href="bookings_post_create.php">Ajouter une réservation</a>
+        <a href="bookings_create.php">Ajouter une réservation</a>
     </div>
 
     <?php foreach ($bookings as $booking) : ?>
