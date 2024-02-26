@@ -11,4 +11,10 @@
             <li><a href="admin.php">Admin</a> </li>
         <?php endif; ?>
     </ul>
+
+    <?php if(isset($_SESSION['LOGGED_USER'])){
+        echo($_SESSION['LOGGED_USER']['pseudo']);
+    } ?>
+
+
 </nav>
