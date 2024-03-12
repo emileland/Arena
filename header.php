@@ -1,6 +1,11 @@
+
+
+<?php if(isset($_SESSION['LOGGED_USER'])){
+    echo($_SESSION['LOGGED_USER']['pseudo']);
+} ?>
 <nav>
-<a href="index.php">Arena</a>
     <ul>
+        <li><a href="index.php">Arena</a></li>
         <li><a href="profile.php">Profil</a></li>
         <?php if(isset($_SESSION['LOGGED_USER'])): ?>
         <li><a href="diary.php">Agenda</a> </li>
@@ -11,10 +16,4 @@
             <li><a href="admin.php">Admin</a> </li>
         <?php endif; ?>
     </ul>
-
-    <?php if(isset($_SESSION['LOGGED_USER'])){
-        echo($_SESSION['LOGGED_USER']['pseudo']);
-    } ?>
-
-
 </nav>

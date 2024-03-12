@@ -9,3 +9,4 @@
     <input type="hidden" name="type" value="0" />
     <button type="submit">Envoyer</button>
 </form>
+<a href="signup.php">Créer un compte</a>
