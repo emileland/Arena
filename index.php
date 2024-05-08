@@ -5,7 +5,7 @@
 <html lang="fr">
     <head>
         <meta charset="utf-8">
-        <title>Arena - Page d'Accueil</title>
+        <title>Unity Arena - Page d'Accueil</title>
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>

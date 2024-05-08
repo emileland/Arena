@@ -5,7 +5,7 @@
 } ?>
 <nav>
     <ul>
-        <li><a href="index.php">Arena</a></li>
+        <li><a href="index.php">Unity Arena</a></li>
         <li><a href="profile.php">Profil</a></li>
         <?php if(isset($_SESSION['LOGGED_USER'])): ?>
         <li><a href="diary.php">Agenda</a> </li>
